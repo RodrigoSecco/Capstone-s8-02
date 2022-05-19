@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Capstone</title>
+</head>
+<body>
+    <header>
+        <h1>Weartake</h1>
+        <nav class="menu-nav">
+            <ul>
+                <li><a href="">Todos</a></li>
+                <li><a href="">Acessórios</a></li>
+                <li><a href="">Blusas</a></li>
+                <li><a href="">Camisetas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">  
+        <section id="vitrine">
+
+        </section>     
+        <section class="carrinho">   
+            <div>
+                <input id="nome" type="text" required placeholder="Digite aqui sua pesquisa">
+                <button class="pesquisar">Pesquisar</button>
+            </div>
+            <div class="carrinho2">
+                <h2>CARRINHO DE COMPRAS</h2>
+                <ul>
+                    <li>
+                        <img alt="camiseta preta" src="img/camiseta_preta.svg" class="imgCarrinho">
+                        <div>
+                            <h3>Camiseta preta</h3>
+                            <strong>R$100,00</strong>
+                            <button class="remover">remover produto</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img alt="moletom preto" src="img/moletom.svg" class="imgCarrinho">
+                        <div>
+                            <h3>Moletom</h3>
+                            <strong>R$100,00</strong>
+                            <button class="remover">remover produto</button>
+                        </div>
+                    </li>
+                </ul>
+                <div class="carrinho3">
+                    <h4>quantidade:  R$200,00</h4>
+                    <h4>total:  2</h4>
+                </div>
+            </div>
+        </section> 
+    </main>
+    <script type="text/javascript" src="./js/database.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>   
+</body>
+</html>
